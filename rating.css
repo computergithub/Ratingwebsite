@@ -1,0 +1,132 @@
+*{
+    padding:0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style:none;
+    font-family: Franklin Gothic Medium;
+}
+/* section{
+    width: 75%;
+    margin: 0 auto;
+} */
+.container{
+    display: grid;
+    width: 75%;
+     margin:5rem auto;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap:8rem;
+}
+.pera h1{
+    font-size:2rem;
+    width: 15rem;
+    margin:1rem 0;
+    color: #531a56;
+}
+.pera p{
+    line-height:1.5;
+}
+p{
+    font-family: Arial Narrow;
+}
+.smoll{
+background-color: #f5e8f5;
+    color: #5a005a;
+    font-weight: bold;
+    width: 23rem;
+    text-align: center;
+    padding: 0.7rem 3rem 0.7rem 1rem;
+    border-radius: 2px;
+    margin:1rem 0px;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.smoll h4{
+    padding-left:1rem;
+}
+.uim-primary {
+    color: rgb(231 143 35);
+}
+#box2{
+    margin-left:3.5rem;
+}
+#box3{
+    margin-left:6.5rem;
+}
+.under-box img{
+    margin-right:1.4rem;
+    height: 2.9rem;
+    width: 2.9rem;
+    border-radius: 50%;
+
+}
+.big-boxs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.5rem;
+}
+.under-box{   
+    height: 10rem;
+     background-color: #450650;
+    border-radius: 0.4rem;
+    color: white;
+    padding:2rem;
+
+}
+.name{
+    padding-bottom:1.5rem;
+    display: flex;
+    align-items: center;
+}
+.user-name{
+    display: flex;
+    flex-direction: column;
+}
+.top-space2{
+    margin-top: 1rem;
+}
+
+.top-space3{
+    margin-top: 2rem;
+}
+@media only screen and (max-width:670px){
+/* body{
+    background-color:rgb(184, 255, 125);
+} */
+.container{
+    display: flex;
+    gap:2rem;
+    flex-direction:column;
+    align-items: center;
+    margin:3rem auto;
+}
+
+#box2{
+    margin:0;
+}
+#box3{
+    margin:1rem 0;
+}
+.pera h1{
+    text-align: center;
+    color: #610b66;
+    width: auto;
+}
+.pera p{
+    text-align: center;
+
+}.big-boxs{
+    gap: 0.5rem;
+}
+.smoll{
+    /* margin:1rem 1rem; */
+    width: 20rem;
+    padding:0.7rem 2rem 0.7rem 1rem;
+
+}
+.top-space3{
+    margin-top: 1rem;
+}
+
+}
